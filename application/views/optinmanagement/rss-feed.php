@@ -1,7 +1,13 @@
  <!DOCTYPE html>
 <html lang="en">
+
+<link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/js/bootstrap-datepicker/css/datepicker.css"); ?>"/>
+<link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/js/bootstrap-timepicker/compiled/timepicker.css"); ?>"/>
+<link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/js/bootstrap-datetimepicker/css/datetimepicker.css"); ?>"/>
  <?php $this->load->view('parts/head') ?>
-<link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/js/bootstrap-fileinput-master/css/fileinput.css");?>" />
+
+
+
 <body class="sticky-header">
 
     <section>
@@ -28,7 +34,9 @@
                     <li class="<?php if($this->uri->uri_string() == 'home/roleM') { echo 'active'; } ?>">
                     Optin Management</li>
                     <li class="<?php if($this->uri->uri_string() == 'home/roleM') { echo 'active'; } ?>">
-                    Carousel Management</li>
+                    Web Management</li>
+                    <li class="<?php if($this->uri->uri_string() == 'home/roleM') { echo 'active'; } ?>">
+                    RSS Feed Management</li>
                 </ul>
                 
                 <div class="panel">
@@ -40,14 +48,23 @@
                         <table class="table convert-data-table data-table">
                                 <thead>
                                 <tr>
-                                    <th width="5%">
+                                    <th>
                                         No
-                                    </th>
-                                    <th width="30%">
-                                        Image Name
+                                    </th>                                    
+                                    <th>
+                                        Judul
                                     </th>
                                     <th>
-                                        Caption
+                                        Link
+                                    </th>
+                                    <th>
+                                        Bahasa
+                                    </th>
+                                    <th width="25%">
+                                        Desc
+                                    </th>
+                                    <th>
+                                        Publish Date
                                     </th>
                                     
                                     <th width="20%" class="text-center">
@@ -62,12 +79,23 @@
                                         1
                                     </td>
                                     <td>
-                                        <a href="">screenshot.jpg</a>
+                                         Lorem ipsum dolor sit amet fusce
                                     </td>
                                     <td>
-                                        Lorem ipsum dolor sit amet fusce
+                                         https://placehold.it/
                                     </td>
                                     <td>
+                                         Indonesia
+                                    </td>
+                                    <td>
+                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                         tempor incididunt ut labore et dolore magna aliqua.
+                                    </td>
+                                    <td>
+                                         25/01/2017
+                                    </td>
+                                    <td>
+                                        <span><button class="btn btn-default btn-sm">Lihat</button></span>
                                         <span><button class="btn btn-default btn-sm">Edit</button></span>
                                         <span><button class="btn btn-default btn-sm">Delete</button></span>
                                     </td>
@@ -88,7 +116,7 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title">Add Banner</h4>
+                                    <h4 class="modal-title">RSS Feed</h4>
                                 </div>
                                 <div class="modal-body">
 
@@ -97,28 +125,31 @@
                                            
                                             <div class="panel-body">
                                                 <form role="form">                                        
-                                                    
+                                                   
                                                     <div class="form-group">
-                                                        <label>File input</label>
-                                                        <input id="file-0" class="file" type="file" multiple=true>
-
-                                                        <p class="help-block">Max file 1Mb JPG PNG </p>
+                                                        <label for="exampleInputEmail1">Title</label>
+                                                        <input type="text" name="title" class="form-control">
                                                     </div>
-
                                                     <div class="form-group">
                                                         <label for="exampleInputEmail1">Description</label>
-                                                        <textarea name="" class="form-control" id="" cols="30" rows="10"></textarea>
+                                                        <textarea name="" class="form-control" id="" cols="30" rows="5"></textarea>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Add Link</label>
+                                                        <input type="text" name="title" class="form-control">
                                                     </div>
 
                                                     <div class="form-group">
-                                                        <label for="exampleInputEmail1">Add To slide</label>
-                                                        <select class="form-control m-b-10">
-                                                            <option>1</option>
-                                                            <option>2</option>
-                                                            <option>3</option>
-                                                        </select>
+                                                        <label for="exampleInputEmail1">Language</label>
+                                                        <input type="text" name="title" class="form-control">
                                                     </div>
-                                                    
+
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Publish</label>
+                                                        <input class="form-control form-control-inline input-medium default-date-picker"  size="16" type="text" value="" />
+                                                    </div>
+
+                                                                                                        
                                                     
                                                 </form>
 
@@ -136,39 +167,7 @@
                     </div>
                 <!-- modal -->
 
-                <!-- <div class="col-lg-6">
-                            <section class="panel">
-                               
-                                <div class="panel-body">
-                                    <form role="form">                                        
-                                        
-                                        <div class="form-group">
-                                            <label>File input</label>
-                                            <input id="file-0" class="file" type="file" multiple=true>
-
-                                            <p class="help-block">Max file 1Mb JPG PNG </p>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1">Description</label>
-                                            <textarea name="" class="form-control" id="" cols="30" rows="10"></textarea>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1">Description</label>
-                                            <select class="form-control m-b-10">
-                                                <option>Primary</option>
-                                                <option>Option 2</option>
-                                                <option>Option 3</option>
-                                            </select>
-                                        </div>
-                                        
-                                        <button type="submit" class="btn btn-info">Submit</button>
-                                    </form>
-
-                                </div>
-                            </section>
-                        </div> -->
+              
             <!--footer section start-->
             <footer>
                 2016 &copy; OPT-IN by TELKOMSEL.
@@ -181,11 +180,9 @@
         </div>
         <!-- body content end-->
     </section>
+
     <?php $this->load->view('parts/script') ?>
-    <!--bootstrap-fileinput-master-->
-    <script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap-fileinput-master/js/fileinput.js");?>">    
-    </script>
-    <script type="text/javascript" src="<?php echo base_url("assets/js/file-input-init.js");?>"></script>
+    
 
 
 </body>

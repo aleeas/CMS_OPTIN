@@ -28,7 +28,9 @@
                     <li class="<?php if($this->uri->uri_string() == 'home/roleM') { echo 'active'; } ?>">
                     Optin Management</li>
                     <li class="<?php if($this->uri->uri_string() == 'home/roleM') { echo 'active'; } ?>">
-                    Carousel Management</li>
+                    Web Management</li>
+                    <li class="<?php if($this->uri->uri_string() == 'home/roleM') { echo 'active'; } ?>">
+                    Link Management</li>
                 </ul>
                 
                 <div class="panel">
@@ -40,14 +42,20 @@
                         <table class="table convert-data-table data-table">
                                 <thead>
                                 <tr>
-                                    <th width="5%">
+                                    <th>
                                         No
                                     </th>
-                                    <th width="30%">
+                                    <th>
                                         Image Name
                                     </th>
                                     <th>
-                                        Caption
+                                        Title
+                                    </th >
+                                    <th>
+                                        Link
+                                    </th >
+                                    <th width="25%">
+                                        Desc
                                     </th>
                                     
                                     <th width="20%" class="text-center">
@@ -68,6 +76,14 @@
                                         Lorem ipsum dolor sit amet fusce
                                     </td>
                                     <td>
+                                        https://placehold.it/
+                                    </td>
+                                    <td>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua.
+                                    </td>
+                                    <td>
+                                        <span><button class="btn btn-default btn-sm">Lihat</button></span>
                                         <span><button class="btn btn-default btn-sm">Edit</button></span>
                                         <span><button class="btn btn-default btn-sm">Delete</button></span>
                                     </td>
@@ -88,7 +104,7 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title">Add Banner</h4>
+                                    <h4 class="modal-title">Add Link</h4>
                                 </div>
                                 <div class="modal-body">
 
@@ -104,10 +120,17 @@
 
                                                         <p class="help-block">Max file 1Mb JPG PNG </p>
                                                     </div>
-
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Title</label>
+                                                        <input type="text" name="title" class="form-control">
+                                                    </div>
                                                     <div class="form-group">
                                                         <label for="exampleInputEmail1">Description</label>
                                                         <textarea name="" class="form-control" id="" cols="30" rows="10"></textarea>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Add Link</label>
+                                                        <input type="text" name="title" class="form-control">
                                                     </div>
 
                                                     <div class="form-group">
@@ -136,39 +159,7 @@
                     </div>
                 <!-- modal -->
 
-                <!-- <div class="col-lg-6">
-                            <section class="panel">
-                               
-                                <div class="panel-body">
-                                    <form role="form">                                        
-                                        
-                                        <div class="form-group">
-                                            <label>File input</label>
-                                            <input id="file-0" class="file" type="file" multiple=true>
-
-                                            <p class="help-block">Max file 1Mb JPG PNG </p>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1">Description</label>
-                                            <textarea name="" class="form-control" id="" cols="30" rows="10"></textarea>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1">Description</label>
-                                            <select class="form-control m-b-10">
-                                                <option>Primary</option>
-                                                <option>Option 2</option>
-                                                <option>Option 3</option>
-                                            </select>
-                                        </div>
-                                        
-                                        <button type="submit" class="btn btn-info">Submit</button>
-                                    </form>
-
-                                </div>
-                            </section>
-                        </div> -->
+              
             <!--footer section start-->
             <footer>
                 2016 &copy; OPT-IN by TELKOMSEL.
@@ -183,7 +174,7 @@
     </section>
     <?php $this->load->view('parts/script') ?>
     <!--bootstrap-fileinput-master-->
-    <script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap-fileinput-master/js/fileinput.js");?>">    
+    <script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap-fileinput-master/js/fileinput.js");?>">   
     </script>
     <script type="text/javascript" src="<?php echo base_url("assets/js/file-input-init.js");?>"></script>
 

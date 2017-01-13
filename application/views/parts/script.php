@@ -28,6 +28,18 @@
 <script src="<?php echo base_url("assets/js/data-table-init.js");?>"></script>
 
 
+<!--bootstrap picker-->
+ <script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap-datepicker/js/bootstrap-datepicker.js");?>"></script>
+ <script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js");?>"></script>
+ <script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap-daterangepicker/moment.min.js");?>"></script>
+ <script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap-daterangepicker/daterangepicker.js");?>"></script>
+ <script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap-colorpicker/js/bootstrap-colorpicker.js");?>"></script>
+ <script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap-timepicker/js/bootstrap-timepicker.js");?>"></script>
+    <!-- <?php echo base_url();?> -->
+    <!--picker initialization-->
+ <script src="<?php echo base_url("assets/js/picker-init.js");?>"></script>
+
+
 
 <!--common scripts for all pages-->
 <script src="<?php echo base_url("assets/js/scripts.js"); ?>"></script>
