@@ -61,11 +61,30 @@
                                 Admin
                             </td>
                             <td class="text-center">
-                                Admin
+                                11-12-2016 15:23:00
                             </td>
 
                             <td class="text-center">
                                 12-12-2017 22:00:00
+                            </td>
+                            <td class="text-center">
+                                127.0.0.1
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                2
+                            </td>
+                            <td>
+                                Customer Service
+                            </td>
+                            <td class="text-center">
+                                07-12-2016 15:23:00
+                            </td>
+
+                            <td class="text-center">
+                                12-11-2017 22:00:00
                             </td>
                             <td class="text-center">
                                 127.0.0.1

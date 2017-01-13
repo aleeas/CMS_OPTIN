@@ -52,5 +52,15 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('optinmanagement/rss-feed');
 	}
+	public function menu_management(){
+		$this->load->view('optinmanagement/web-management/menu_management');
+	}
+	public function reward_management(){
+		$this->load->view('optinmanagement/web-management/reward_management');
+	}
+
+	public function surveyquiz_online(){
+		$this->load->view('optinmanagement/web-management/surveyquiz_online');
+	}
 
 }
