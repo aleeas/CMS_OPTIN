@@ -31,6 +31,11 @@ class Home extends CI_Controller {
 		$this->load->view('optinmanagement/optout-feature');
 	}
 
+	public function profile_management()
+	{
+		$this->load->view('optinmanagement/profile-management');
+	}
+
 	public function articleM()
 	{
 		$this->load->view('optinmanagement/article');
@@ -39,4 +44,13 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('optinmanagement/carousel');
 	}
+	public function link_management()
+	{
+		$this->load->view('optinmanagement/link-management');
+	}
+	public function rss_feed()
+	{
+		$this->load->view('optinmanagement/rss-feed');
+	}
+
 }
