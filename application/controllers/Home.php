@@ -7,9 +7,14 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('index');
 	}
-	public function roleM()
+
+	//user management
+	public function role()
 	{
 		$this->load->view('usermanagement/role-user');
+	}
+	public function user(){
+		$this->load->view('usermanagement/create-user');
 	}
 	public function logs()
 	{
