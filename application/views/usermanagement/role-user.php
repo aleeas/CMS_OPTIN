@@ -151,10 +151,10 @@
                 <table class="table convert-data-table data-table">
                         <thead>
                         <tr>
-                            <th width="5%">
+                            <th width="5%" class="text-center">
                                 No
                             </th>
-                            <th width="30%">
+                            <th width="30%" class="text-center">
                                 Role Name
                             </th>
                             <th width="15%" class="text-center">
@@ -164,7 +164,7 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
+                        <tr class="text-center">
                             <td>
                                 1
                             </td>

@@ -22,19 +22,36 @@
 
             <!--body wrapper start-->
             <div class="wrapper">
-                <div class="form-group">
-                        <div class="col-sm-10">
+               
+                        <!-- <div class="col-sm-10">
                             <input type="text" class="form-control">
                         </div>
-                        <button type="button" class="btn btn-default m-b-10">Unregistration</button>
+                        <button type="button" class="btn btn-default m-b-10">Unregistration</button> -->
+
+                        <section class="panel">
+	                        <header class="panel-heading">
+	                            OPT-OUT Feature
+	                        </header>
+	                        <div class="panel-body">
+	                            <form role="form">
+	                                <div class="form-group">
+	                                    <label for="exampleInputmsisdn">MSISDN</label>
+	                                    <input type="text" class="form-control" id="exampleInputmsisdn" placeholder="Enter MSISDN">
+	                                </div>                               
+	                               
+	                                <button type="submit" class="btn btn-default">Unreg</button>
+	                            </form>
+
+	                        </div>
+	                    </section>
                         <section class="panel">
                         <header class="panel-heading head-border">
-                            Striped Table
+                            Opt Out History
                         </header>
-                        <table class="table table-striped">
+                        <table class="table convert-data-table data-table">
                             <thead>
                             <tr>
-                                <th>#</th>
+                                <th>No</th>
                                 <th>MSISDN</th>
                                 <th>Date Unregistration</th>
                             </tr>
@@ -58,7 +75,7 @@
                             </tbody>
                         </table>
                     </section>
-                </div>
+             
                 
 
             </div>
