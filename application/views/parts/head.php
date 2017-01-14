@@ -9,6 +9,8 @@
 
     <title>OPTIN - CMS</title>
 
+    <link href="<?php echo base_url("assets/js/summernote/dist/summernote.css");?>" rel="stylesheet">
+
     <!--switchery-->
     <link href="<?php echo base_url("assets/js/switchery/switchery.min.css");?>" rel="stylesheet" type="text/css" media="screen" />
 

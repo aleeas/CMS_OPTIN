@@ -28,6 +28,24 @@
 <script src="<?php echo base_url("assets/js/data-table-init.js");?>"></script>
 
 
+<script src="<?php echo base_url("assets/js/summernote/dist/summernote.min.js"); ?>"></script>
 
 <!--common scripts for all pages-->
 <script src="<?php echo base_url("assets/js/scripts.js"); ?>"></script>
+
+  <script>
+
+    jQuery(document).ready(function(){
+        $('.wysihtml5').wysihtml5();
+
+        $('.summernote').summernote({
+            height: 200,                 // set editor height
+
+            minHeight: null,             // set minimum height of editor
+            maxHeight: null,             // set maximum height of editor
+
+            focus: true                 // set focus to editable area after initializing summernote
+        });
+    });
+
+	</script>

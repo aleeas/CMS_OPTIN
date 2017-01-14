@@ -31,6 +31,11 @@ class Home extends CI_Controller {
 		$this->load->view('optinmanagement/profile-management');
 	}
 
+	public function campaign_management()
+	{
+		$this->load->view('optinmanagement/campaign_management');
+	}
+
 	public function articleM()
 	{
 		$this->load->view('optinmanagement/article');
