@@ -68,8 +68,17 @@ class Home extends CI_Controller {
 		$this->load->view('optinmanagement/web-management/surveyquiz_online');
 	}
 
+<<<<<<< HEAD
+	public function wheelfortune(){
+		$this->load->view('optinmanagement/web-management/wheel-fortune');
+	}
+
+	public function luckydraw(){
+		$this->load->view('optinmanagement/web-management/lucky-draw');
+=======
 	public function coin_management(){
 		$this->load->view('optinmanagement/web-management/coin_management');
+>>>>>>> a5712579fd79e5c6171cb2a07b7e6f8f093f90d2
 	}
 	public function visitor(){
 		$this->load->view('report/visitor');

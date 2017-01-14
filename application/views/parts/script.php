@@ -27,32 +27,23 @@
 <!--data table init-->
 <script src="<?php echo base_url("assets/js/data-table-init.js");?>"></script>
 
-
-<<<<<<< HEAD
 <script src="<?php echo base_url("assets/js/summernote/dist/summernote.min.js"); ?>"></script>
-=======
+<script src="<?php echo base_url("assets/js/bootstrap-fileinput-master/js/fileinput.js"); ?>"></script>
+<script src="<?php echo base_url("assets/js/file-input-init.js"); ?>"></script>
 <!--bootstrap picker-->
- <script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap-datepicker/js/bootstrap-datepicker.js");?>"></script>
- <script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js");?>"></script>
- <script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap-daterangepicker/moment.min.js");?>"></script>
- <script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap-daterangepicker/daterangepicker.js");?>"></script>
- <script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap-colorpicker/js/bootstrap-colorpicker.js");?>"></script>
- <script type="text/javascript" src="<?php echo base_url("assets/js/bootstrap-timepicker/js/bootstrap-timepicker.js");?>"></script>
+ <script src="<?php echo base_url("assets/js/bootstrap-datepicker/js/bootstrap-datepicker.js");?>"></script>
+ <script src="<?php echo base_url("assets/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js");?>"></script>
+ <script src="<?php echo base_url("assets/js/bootstrap-daterangepicker/moment.min.js");?>"></script>
+ <script src="<?php echo base_url("assets/js/bootstrap-daterangepicker/daterangepicker.js");?>"></script>
+ <script src="<?php echo base_url("assets/js/bootstrap-colorpicker/js/bootstrap-colorpicker.js");?>"></script>
+ <script src="<?php echo base_url("assets/js/bootstrap-timepicker/js/bootstrap-timepicker.js");?>"></script>
     <!-- <?php echo base_url();?> -->
     <!--picker initialization-->
  <script src="<?php echo base_url("assets/js/picker-init.js");?>"></script>
 
-
->>>>>>> e405fde669b9920ef3aaee653d5339132e27341b
-
-<!--common scripts for all pages-->
-<script src="<?php echo base_url("assets/js/scripts.js"); ?>"></script>
-
-  <script>
-
+<script type="text/javascript">
     jQuery(document).ready(function(){
-        $('.wysihtml5').wysihtml5();
-
+       
         $('.summernote').summernote({
             height: 200,                 // set editor height
 
@@ -63,4 +54,8 @@
         });
     });
 
-	</script>
+  </script>
+
+<!--common scripts for all pages-->
+<script src="<?php echo base_url("assets/js/scripts.js"); ?>"></script>
+

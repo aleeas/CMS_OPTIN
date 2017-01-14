@@ -25,9 +25,9 @@
 
                 <ul class="breadcrumb">
                     <li><a href="<?php echo site_url(); ?>"><i class="fa fa-home"></i> Home</a></li>
-                    <li class="<?php if($this->uri->uri_string() == 'home/roleM') { echo 'active'; } ?>">
+                    <li class="<?php if($this->uri->uri_string() == 'home/carousel') { echo 'active'; } ?>">
                     Optin Management</li>
-                    <li class="<?php if($this->uri->uri_string() == 'home/roleM') { echo 'active'; } ?>">
+                    <li class="<?php if($this->uri->uri_string() == 'home/carousel') { echo 'active'; } ?>">
                     Carousel Management</li>
                 </ul>
                 
