@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="javascript:;" type="image/png">
 
     <title>OPTIN - CMS</title>
-
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/js/bootstrap-fileinput-master/css/fileinput.css"); ?>" />
     <link href="<?php echo base_url("assets/js/summernote/dist/summernote.css");?>" rel="stylesheet">
 
     <!--switchery-->
