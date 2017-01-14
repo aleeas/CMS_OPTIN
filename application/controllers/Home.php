@@ -68,4 +68,8 @@ class Home extends CI_Controller {
 		$this->load->view('optinmanagement/web-management/surveyquiz_online');
 	}
 
+	public function coin_management(){
+		$this->load->view('optinmanagement/web-management/coin_management');
+	}
+
 }
