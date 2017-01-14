@@ -23,7 +23,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+<<<<<<< HEAD
 $config['base_url']  =  "http://localhost/optincms/";
+=======
+$config['base_url']  =  "http://localhost/optincms/CMS_OPTIN/";
+>>>>>>> a5712579fd79e5c6171cb2a07b7e6f8f093f90d2
 /*
 |--------------------------------------------------------------------------
 | Index File
