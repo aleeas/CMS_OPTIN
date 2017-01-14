@@ -172,7 +172,7 @@
                                 Admin
                             </td>
                             <td>
-                                <span><a data-toggle="modal"href="#myModal2"><i class="fa fa-pencil"></i></a></span>
+                                <span><a data-toggle="modal" href="#myModal2"><i class="fa fa-pencil"></i></a></span>
                                 <span><a data-toggle="modal" href="#"><i class="fa fa-trash"></i></a></span>
                             </td>
                             
@@ -185,7 +185,7 @@
                                 Customer Service
                             </td>
                             <td>
-                                <span><a data-toggle="modal"href="#myModal2"><i class="fa fa-pencil"></i></a></span>
+                                <span><a data-toggle="modal" href="#myModal2"><i class="fa fa-pencil"></i></a></span>
                                 <span><a data-toggle="modal" href="#"><i class="fa fa-trash"></i></a></span>
                             </td>
                             
@@ -198,7 +198,7 @@
                                 Content Editor
                             </td>
                             <td>
-                                <span><a data-toggle="modal"href="#myModal2"><i class="fa fa-pencil"></i></a></span>
+                                <span><a data-toggle="modal" href="#myModal2"><i class="fa fa-pencil"></i></a></span>
                                 <span><a data-toggle="modal" href="#"><i class="fa fa-trash"></i></a></span>
                             </td>
                             
@@ -211,7 +211,7 @@
                                 Support
                             </td>
                             <td>
-                                <span><a data-toggle="modal"href="#myModal2"><i class="fa fa-pencil"></i></a></span>
+                                <span><a data-toggle="modal" href="#myModal2"><i class="fa fa-pencil"></i></a></span>
                                 <span><a data-toggle="modal" href="#"><i class="fa fa-trash"></i></a></span>
                             </td>
                             
@@ -224,7 +224,7 @@
                                 Carry
                             </td>
                             <td>
-                                <span><a data-toggle="modal"href="#myModal2"><i class="fa fa-pencil"></i></a></span>
+                                <span><a data-toggle="modal" href="#myModal2"><i class="fa fa-pencil"></i></a></span>
                                 <span><a data-toggle="modal" href="#"><i class="fa fa-trash"></i></a></span>
                             </td>
                             

@@ -68,6 +68,31 @@
                                     
                                     <button type="submit" class="btn btn-default">Submit</button>
                                 </form>
+                                <hr>
+                                <h3 class="text-center">List Category</h3>
+                                <table class="table convert-data-table data-table">
+                                        <thead>
+                                        <tr>
+                                            <th>
+                                                No
+                                            </th>
+                                            <th>
+                                                Category Name
+                                            </th>
+                                            <th class="text-right">
+                                                Action
+                                            </th>                            
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Sepak Bola</td>
+                                                <td class="text-right"><span><a data-toggle="modal" href="#myModal2"><i class="fa fa-pencil"></i></a></span>
+                                                <span><a data-toggle="modal" href="#"><i class="fa fa-trash"></i></a></span></td>
+                                            </tr>
+                                        </tbody>
+                                </table>
 
                             </div>
 
@@ -101,6 +126,7 @@
                         </div>
                     </div>
                 </section>
+
             </div>
             <!--body wrapper end-->
 
