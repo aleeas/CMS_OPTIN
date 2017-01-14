@@ -78,5 +78,11 @@ class Home extends CI_Controller {
 	public function coin_management(){
 		$this->load->view('optinmanagement/web-management/coin_management');
 	}
+	public function visitor(){
+		$this->load->view('report/visitor');
+	}
+	public function subscribe(){
+		$this->load->view('report/optin-subscriber-regional');
+	}
 
 }
