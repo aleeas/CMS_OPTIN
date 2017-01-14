@@ -129,10 +129,10 @@
                         <div class="dd-handle">Reporting</div>
                         <ol class="dd-list">
                             <li class="dd-item" data-id="29">
-                                <div class="dd-handle"><a href="<?php echo site_url("home/roleM") ?>" class="dd-nodrag link_min">Visitor and the frequency</a></div>
+                                <div class="dd-handle"><a href="<?php echo site_url("home/visitor") ?>" class="dd-nodrag link_min">Visitor and the frequency</a></div>
                             </li>
                             <li class="dd-item" data-id="30">
-                                <div class="dd-handle"><a href="<?php echo site_url("home/roleM") ?>" class="dd-nodrag link_min">Opt-in subscribers regional</a></div>
+                                <div class="dd-handle"><a href="<?php echo site_url("home/subscribe") ?>" class="dd-nodrag link_min">Opt-in subscribers regional</a></div>
                             </li>
                         </ol>
                      </li>
