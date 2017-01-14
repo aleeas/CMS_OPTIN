@@ -25,9 +25,11 @@
                 <ul class="breadcrumb">
                     <li><a href="<?php echo site_url(); ?>"><i class="fa fa-home"></i> Home</a></li>
                     <li class="<?php if($this->uri->uri_string() == 'home/roleM') { echo 'active'; } ?>">
-                    User Management</li>
+                    Optin Management</li>
                     <li class="<?php if($this->uri->uri_string() == 'home/roleM') { echo 'active'; } ?>">
-                    Role Management</li>
+                    Web & Mobile Management</li>
+                    <li class="<?php if($this->uri->uri_string() == 'home/roleM') { echo 'active'; } ?>">
+                    Survey & Online Quize</li>
                 </ul>
                 <div class="panel">
                 <div class="panel-body">
@@ -39,7 +41,7 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title">Add Role</h4>
+                                    <h4 class="modal-title">Add Quetioner</h4>
                                 </div>
                                 <div class="modal-body">
 
@@ -47,37 +49,33 @@
                                     <div class="panel-body">
                                         <form class="form-horizontal tasi-form" method="get">
                                             <div class="form-group">
-                                                <label class="col-sm-2 col-sm-2 control-label">Role Name</label>
+                                                <label class="col-sm-2 col-sm-2 control-label">Category</label>
+                                                <div class="col-sm-10">
+                                                    <select class="form-control m-b-10">
+                                                        <option>Basic Survey</option>
+                                                        <option>Soundrenaline Survey</option>
+                                                        <option>Unilever</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-2 col-sm-2 control-label">Question</label>
                                                 <div class="col-sm-10">
                                                     <input type="text" class="form-control">
                                                 </div>
                                             </div>
-                                            
                                             <div class="form-group">
-                                                <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">Permissions</label>
+                                                <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">Answer</label>
                                                 <div class="col-lg-10">
-                                                    <div class="check-box">
-                                                        <label>
-                                                            <input type="checkbox" value="">
-                                                            Create Content
-                                                        </label>
-                                                    </div>
-
-                                                    <div class="check-box">
-                                                        <label>
-                                                            <input type="checkbox" value="">
-                                                            Update Content
-                                                        </label>
-                                                    </div>
-                                                    <div class="check-box">
-                                                        <label>
-                                                            <input type="checkbox" value="">
-                                                            Delete Content
-                                                        </label>
-                                                    </div>
-
+                                                    <input class="form-control m-b-10" type="text" placeholder="Type Answer Here!">
+                                                    <input class="form-control m-b-10" type="text" placeholder="Type Answer Here!">
+                                                    <input class="form-control m-b-10" type="text" placeholder="Type Answer Here!">
+                                                    <input class="form-control m-b-10" type="text" placeholder="Type Answer Here!">
+                                                    <input class="form-control m-b-10" type="text" placeholder="Type Answer Here!">
+                                                    <input class="form-control m-b-10" type="text" placeholder="Type Answer Here!">
                                                 </div>
                                             </div>
+                                            
 
                                         </form>
                                     </div>
@@ -96,7 +94,7 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title">Edit Role</h4>
+                                    <h4 class="modal-title">Add Quetioner</h4>
                                 </div>
                                 <div class="modal-body">
 
@@ -104,37 +102,33 @@
                                     <div class="panel-body">
                                         <form class="form-horizontal tasi-form" method="get">
                                             <div class="form-group">
-                                                <label class="col-sm-2 col-sm-2 control-label">Role Name</label>
+                                                <label class="col-sm-2 col-sm-2 control-label">Category</label>
                                                 <div class="col-sm-10">
-                                                    <input type="text" class="form-control" value="Admin">
+                                                    <select class="form-control m-b-10">
+                                                        <option>Basic Survey</option>
+                                                        <option>Soundrenaline Survey</option>
+                                                        <option>Unilever</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-2 col-sm-2 control-label">Question</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" class="form-control" value="How much?">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">Answer</label>
+                                                <div class="col-lg-10">
+                                                    <input class="form-control m-b-10" type="text" value="1">
+                                                    <input class="form-control m-b-10" type="text" value="2">
+                                                    <input class="form-control m-b-10" type="text" value="3">
+                                                    <input class="form-control m-b-10" type="text" value="4">
+                                                    <input class="form-control m-b-10" type="text" value="5">
+                                                    <input class="form-control m-b-10" type="text" value=">5">
                                                 </div>
                                             </div>
                                             
-                                            <div class="form-group">
-                                                <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">Permissions</label>
-                                                <div class="col-lg-10">
-                                                    <div class="check-box">
-                                                        <label>
-                                                            <input type="checkbox" value="" checked>
-                                                            Create Content
-                                                        </label>
-                                                    </div>
-
-                                                    <div class="check-box">
-                                                        <label>
-                                                            <input type="checkbox" value="">
-                                                            Update Content
-                                                        </label>
-                                                    </div>
-                                                    <div class="check-box">
-                                                        <label>
-                                                            <input type="checkbox" value="">
-                                                            Delete Content
-                                                        </label>
-                                                    </div>
-
-                                                </div>
-                                            </div>
 
                                         </form>
                                     </div>
@@ -155,7 +149,7 @@
                                 No
                             </th>
                             <th width="30%">
-                                Role Name
+                                Category
                             </th>
                             <th width="15%" class="text-center">
                                 Action
@@ -169,7 +163,33 @@
                                 1
                             </td>
                             <td>
-                                Admin
+                                Soundrenaline
+                            </td>
+                            <td>
+                                <span><button class="btn-md btn btn-default" data-toggle="modal" href="#myModal2">Edit</button></span>
+                                <span><button class="btn btn-default btn-sm">Delete</button></span>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                2
+                            </td>
+                            <td>
+                                Basic
+                            </td>
+                            <td>
+                                <span><button class="btn-md btn btn-default" data-toggle="modal" href="#myModal2">Edit</button></span>
+                                <span><button class="btn btn-default btn-sm">Delete</button></span>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                Unilever
                             </td>
                             <td>
                                 <span><button class="btn-md btn btn-default" data-toggle="modal" href="#myModal2">Edit</button></span>

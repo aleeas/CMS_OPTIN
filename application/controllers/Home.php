@@ -7,9 +7,14 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('index');
 	}
-	public function roleM()
+
+	//user management
+	public function role()
 	{
 		$this->load->view('usermanagement/role-user');
+	}
+	public function user(){
+		$this->load->view('usermanagement/create-user');
 	}
 	public function logs()
 	{
@@ -44,4 +49,23 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('optinmanagement/carousel');
 	}
+	public function link_management()
+	{
+		$this->load->view('optinmanagement/link-management');
+	}
+	public function rss_feed()
+	{
+		$this->load->view('optinmanagement/rss-feed');
+	}
+	public function menu_management(){
+		$this->load->view('optinmanagement/web-management/menu_management');
+	}
+	public function reward_management(){
+		$this->load->view('optinmanagement/web-management/reward_management');
+	}
+
+	public function surveyquiz_online(){
+		$this->load->view('optinmanagement/web-management/surveyquiz_online');
+	}
+
 }

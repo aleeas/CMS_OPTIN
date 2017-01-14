@@ -26,7 +26,10 @@
                     <div class="dd-handle">User Management</div>
                     <ol class="dd-list">
                         <li class="dd-item" data-id="3">
-                            <div class="dd-handle"><a href="<?php echo site_url("home/roleM") ?>" class="dd-nodrag link_min">Role Management</a></div>
+                            <div class="dd-handle"><a href="<?php echo site_url("home/user") ?>" class="dd-nodrag link_min">Create User</a></div>
+                        </li>
+                        <li class="dd-item" data-id="3">
+                            <div class="dd-handle"><a href="<?php echo site_url("home/role") ?>" class="dd-nodrag link_min">Role Management</a></div>
                         </li>
                         <li class="dd-item" data-id="4">
                             <div class="dd-handle"><a href="<?php echo site_url("home/logs") ?>" class="dd-nodrag link_min">User Log</a></div>

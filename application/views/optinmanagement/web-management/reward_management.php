@@ -39,7 +39,7 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title">Add Role</h4>
+                                    <h4 class="modal-title">Add Reward</h4>
                                 </div>
                                 <div class="modal-body">
 
@@ -47,37 +47,18 @@
                                     <div class="panel-body">
                                         <form class="form-horizontal tasi-form" method="get">
                                             <div class="form-group">
-                                                <label class="col-sm-2 col-sm-2 control-label">Role Name</label>
+                                                <label class="col-sm-2 col-sm-2 control-label">Name</label>
                                                 <div class="col-sm-10">
                                                     <input type="text" class="form-control">
                                                 </div>
                                             </div>
-                                            
                                             <div class="form-group">
-                                                <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">Permissions</label>
-                                                <div class="col-lg-10">
-                                                    <div class="check-box">
-                                                        <label>
-                                                            <input type="checkbox" value="">
-                                                            Create Content
-                                                        </label>
-                                                    </div>
-
-                                                    <div class="check-box">
-                                                        <label>
-                                                            <input type="checkbox" value="">
-                                                            Update Content
-                                                        </label>
-                                                    </div>
-                                                    <div class="check-box">
-                                                        <label>
-                                                            <input type="checkbox" value="">
-                                                            Delete Content
-                                                        </label>
-                                                    </div>
-
+                                                <label class="col-sm-2 col-sm-2 control-label">Poin</label>
+                                                <div class="col-sm-10">
+                                                    <input type="number" class="form-control">
                                                 </div>
                                             </div>
+                                            
 
                                         </form>
                                     </div>
@@ -96,7 +77,7 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title">Edit Role</h4>
+                                    <h4 class="modal-title">Edit Reward</h4>
                                 </div>
                                 <div class="modal-body">
 
@@ -104,37 +85,18 @@
                                     <div class="panel-body">
                                         <form class="form-horizontal tasi-form" method="get">
                                             <div class="form-group">
-                                                <label class="col-sm-2 col-sm-2 control-label">Role Name</label>
+                                                <label class="col-sm-2 col-sm-2 control-label">Name</label>
                                                 <div class="col-sm-10">
-                                                    <input type="text" class="form-control" value="Admin">
+                                                    <input type="text" class="form-control" value="Honda Jazz">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-2 col-sm-2 control-label">Poin</label>
+                                                <div class="col-sm-10">
+                                                    <input type="number" class="form-control" value="20000">
                                                 </div>
                                             </div>
                                             
-                                            <div class="form-group">
-                                                <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">Permissions</label>
-                                                <div class="col-lg-10">
-                                                    <div class="check-box">
-                                                        <label>
-                                                            <input type="checkbox" value="" checked>
-                                                            Create Content
-                                                        </label>
-                                                    </div>
-
-                                                    <div class="check-box">
-                                                        <label>
-                                                            <input type="checkbox" value="">
-                                                            Update Content
-                                                        </label>
-                                                    </div>
-                                                    <div class="check-box">
-                                                        <label>
-                                                            <input type="checkbox" value="">
-                                                            Delete Content
-                                                        </label>
-                                                    </div>
-
-                                                </div>
-                                            </div>
 
                                         </form>
                                     </div>
@@ -155,7 +117,10 @@
                                 No
                             </th>
                             <th width="30%">
-                                Role Name
+                                Reward
+                            </th>
+                            <th>
+                                Poin Requirement
                             </th>
                             <th width="15%" class="text-center">
                                 Action
@@ -169,7 +134,42 @@
                                 1
                             </td>
                             <td>
-                                Admin
+                                Honda Jazz
+                            </td>
+                            <td>
+                                20000
+                            </td>
+                            <td>
+                                <span><button class="btn-md btn btn-default" data-toggle="modal" href="#myModal2">Edit</button></span>
+                                <span><button class="btn btn-default btn-sm">Delete</button></span>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                2
+                            </td>
+                            <td>
+                                Voucher Pulsa
+                            </td>
+                            <td>
+                                100
+                            </td>
+                            <td>
+                                <span><button class="btn-md btn btn-default" data-toggle="modal" href="#myModal2">Edit</button></span>
+                                <span><button class="btn btn-default btn-sm">Delete</button></span>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                Sepeda Motor
+                            </td>
+                            <td>
+                                5000
                             </td>
                             <td>
                                 <span><button class="btn-md btn btn-default" data-toggle="modal" href="#myModal2">Edit</button></span>

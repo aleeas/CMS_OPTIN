@@ -39,7 +39,7 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title">Add Role</h4>
+                                    <h4 class="modal-title">Create User</h4>
                                 </div>
                                 <div class="modal-body">
 
@@ -47,37 +47,28 @@
                                     <div class="panel-body">
                                         <form class="form-horizontal tasi-form" method="get">
                                             <div class="form-group">
-                                                <label class="col-sm-2 col-sm-2 control-label">Role Name</label>
+                                                <label class="col-sm-2 col-sm-2 control-label">Username</label>
                                                 <div class="col-sm-10">
                                                     <input type="text" class="form-control">
                                                 </div>
                                             </div>
-                                            
                                             <div class="form-group">
-                                                <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">Permissions</label>
-                                                <div class="col-lg-10">
-                                                    <div class="check-box">
-                                                        <label>
-                                                            <input type="checkbox" value="">
-                                                            Create Content
-                                                        </label>
-                                                    </div>
-
-                                                    <div class="check-box">
-                                                        <label>
-                                                            <input type="checkbox" value="">
-                                                            Update Content
-                                                        </label>
-                                                    </div>
-                                                    <div class="check-box">
-                                                        <label>
-                                                            <input type="checkbox" value="">
-                                                            Delete Content
-                                                        </label>
-                                                    </div>
-
+                                                <label class="col-sm-2 col-sm-2 control-label">Password</label>
+                                                <div class="col-sm-10">
+                                                    <input type="password" class="form-control">
                                                 </div>
                                             </div>
+                                            <div class="form-group">
+                                                    <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">Role</label>
+                                                    <div class="col-lg-10">
+                                                        <select class="form-control m-b-10">
+                                                            <option>Admin</option>
+                                                            <option>Super User</option>
+                                                            <option>User</option>
+                                                            <option>Creator</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
 
                                         </form>
                                     </div>
@@ -96,7 +87,7 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title">Edit Role</h4>
+                                    <h4 class="modal-title">Edit User</h4>
                                 </div>
                                 <div class="modal-body">
 
@@ -104,37 +95,28 @@
                                     <div class="panel-body">
                                         <form class="form-horizontal tasi-form" method="get">
                                             <div class="form-group">
-                                                <label class="col-sm-2 col-sm-2 control-label">Role Name</label>
+                                                <label class="col-sm-2 col-sm-2 control-label">Username</label>
                                                 <div class="col-sm-10">
-                                                    <input type="text" class="form-control" value="Admin">
+                                                    <input type="text" class="form-control" value="John">
                                                 </div>
                                             </div>
-                                            
                                             <div class="form-group">
-                                                <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">Permissions</label>
-                                                <div class="col-lg-10">
-                                                    <div class="check-box">
-                                                        <label>
-                                                            <input type="checkbox" value="" checked>
-                                                            Create Content
-                                                        </label>
-                                                    </div>
-
-                                                    <div class="check-box">
-                                                        <label>
-                                                            <input type="checkbox" value="">
-                                                            Update Content
-                                                        </label>
-                                                    </div>
-                                                    <div class="check-box">
-                                                        <label>
-                                                            <input type="checkbox" value="">
-                                                            Delete Content
-                                                        </label>
-                                                    </div>
-
+                                                <label class="col-sm-2 col-sm-2 control-label">Password</label>
+                                                <div class="col-sm-10">
+                                                    <input type="password" class="form-control">
                                                 </div>
                                             </div>
+                                            <div class="form-group">
+                                                    <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">Role</label>
+                                                    <div class="col-lg-10">
+                                                        <select class="form-control m-b-10">
+                                                            <option selected>Admin</option>
+                                                            <option>Super User</option>
+                                                            <option>User</option>
+                                                            <option>Creator</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
 
                                         </form>
                                     </div>
@@ -155,7 +137,10 @@
                                 No
                             </th>
                             <th width="30%">
-                                Role Name
+                                Username
+                            </th>
+                            <th>
+                                Role
                             </th>
                             <th width="15%" class="text-center">
                                 Action
@@ -167,6 +152,9 @@
                         <tr>
                             <td>
                                 1
+                            </td>
+                            <td>
+                                John
                             </td>
                             <td>
                                 Admin

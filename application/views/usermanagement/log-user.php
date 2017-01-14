@@ -22,13 +22,80 @@
 
             <!--body wrapper start-->
             <div class="wrapper">
-
                 <ul class="breadcrumb">
                     <li><a href="<?php echo site_url(); ?>"><i class="fa fa-home"></i> Home</a></li>
-                    <li class="<?php if($this->uri->uri_string() == 'home/logs') { echo 'active'; } ?>">User Management</li>
-                    <li class="<?php if($this->uri->uri_string() == 'home/logs') { echo 'active'; } ?>">Logs</li>
+                    <li class="<?php if($this->uri->uri_string() == 'home/roleM') { echo 'active'; } ?>">
+                    User Management</li>
+                    <li class="<?php if($this->uri->uri_string() == 'home/roleM') { echo 'active'; } ?>">
+                    Role Management</li>
                 </ul>
+                <div class="panel">
+                <div class="panel-body">
+                <table class="table convert-data-table data-table">
+                        <thead>
+                        <tr>
+                            <th>
+                                No
+                            </th>
+                            <th>
+                                User
+                            </th>
+                            <th class="text-center">
+                                Created On
+                            </th>
+                            <th class="text-center">
+                                Last Login
+                            </th>
+                            <th class="text-center">
+                                IP Address
+                            </th>
+                            
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                Admin
+                            </td>
+                            <td class="text-center">
+                                11-12-2016 15:23:00
+                            </td>
 
+                            <td class="text-center">
+                                12-12-2017 22:00:00
+                            </td>
+                            <td class="text-center">
+                                127.0.0.1
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                2
+                            </td>
+                            <td>
+                                Customer Service
+                            </td>
+                            <td class="text-center">
+                                07-12-2016 15:23:00
+                            </td>
+
+                            <td class="text-center">
+                                12-11-2017 22:00:00
+                            </td>
+                            <td class="text-center">
+                                127.0.0.1
+                            </td>
+                            
+                        </tr>
+                        </tbody>
+                </table>
+                </div>
+                </div>
+                
             </div>
             <!--body wrapper end-->
 
