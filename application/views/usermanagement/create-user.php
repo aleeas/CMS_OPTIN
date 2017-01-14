@@ -27,7 +27,7 @@
                     <li class="<?php if($this->uri->uri_string() == 'home/roleM') { echo 'active'; } ?>">
                     User Management</li>
                     <li class="<?php if($this->uri->uri_string() == 'home/roleM') { echo 'active'; } ?>">
-                    Role Management</li>
+                    Create User</li>
                 </ul>
                 <div class="panel">
                 <div class="panel-body">
@@ -160,8 +160,71 @@
                                 Admin
                             </td>
                             <td>
-                                <span><button class="btn-md btn btn-default" data-toggle="modal" href="#myModal2">Edit</button></span>
-                                <span><button class="btn btn-default btn-sm">Delete</button></span>
+                                <span><a data-toggle="modal"href="#myModal2"><i class="fa fa-pencil"></i></a></span>
+                                <span><a data-toggle="modal" href="#"><i class="fa fa-trash"></i></a></span>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                2
+                            </td>
+                            <td>
+                                Ammer
+                            </td>
+                            <td>
+                                Customer Service
+                            </td>
+                            <td>
+                                <span><a data-toggle="modal"href="#myModal2"><i class="fa fa-pencil"></i></a></span>
+                                <span><a data-toggle="modal" href="#"><i class="fa fa-trash"></i></a></span>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                Emma
+                            </td>
+                            <td>
+                                Customer Service
+                            </td>
+                            <td>
+                                <span><a data-toggle="modal"href="#myModal2"><i class="fa fa-pencil"></i></a></span>
+                                <span><a data-toggle="modal" href="#"><i class="fa fa-trash"></i></a></span>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                4
+                            </td>
+                            <td>
+                                Azazel
+                            </td>
+                            <td>
+                                Customer Service
+                            </td>
+                            <td>
+                                <span><a data-toggle="modal"href="#myModal2"><i class="fa fa-pencil"></i></a></span>
+                                <span><a data-toggle="modal" href="#"><i class="fa fa-trash"></i></a></span>
+                            </td>
+                            
+                        </tr><tr>
+                            <td>
+                                5
+                            </td>
+                            <td>
+                                Banshe
+                            </td>
+                            <td>
+                                Customer Service
+                            </td>
+                            <td>
+                                <span><a data-toggle="modal"href="#myModal2"><i class="fa fa-pencil"></i></a></span>
+                                <span><a data-toggle="modal" href="#"><i class="fa fa-trash"></i></a></span>
                             </td>
                             
                         </tr>

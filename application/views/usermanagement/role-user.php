@@ -157,7 +157,7 @@
                             <th width="30%" class="text-center">
                                 Role Name
                             </th>
-                            <th width="15%" class="text-center">
+                            <th width="5%" class="text-center">
                                 Action
                             </th>
                             
@@ -172,8 +172,60 @@
                                 Admin
                             </td>
                             <td>
-                                <span><button class="btn-md btn btn-default" data-toggle="modal" href="#myModal2">Edit</button></span>
-                                <span><button class="btn btn-default btn-sm">Delete</button></span>
+                                <span><a data-toggle="modal"href="#myModal2"><i class="fa fa-pencil"></i></a></span>
+                                <span><a data-toggle="modal" href="#"><i class="fa fa-trash"></i></a></span>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                2
+                            </td>
+                            <td>
+                                Customer Service
+                            </td>
+                            <td>
+                                <span><a data-toggle="modal"href="#myModal2"><i class="fa fa-pencil"></i></a></span>
+                                <span><a data-toggle="modal" href="#"><i class="fa fa-trash"></i></a></span>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                Content Editor
+                            </td>
+                            <td>
+                                <span><a data-toggle="modal"href="#myModal2"><i class="fa fa-pencil"></i></a></span>
+                                <span><a data-toggle="modal" href="#"><i class="fa fa-trash"></i></a></span>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                4
+                            </td>
+                            <td>
+                                Support
+                            </td>
+                            <td>
+                                <span><a data-toggle="modal"href="#myModal2"><i class="fa fa-pencil"></i></a></span>
+                                <span><a data-toggle="modal" href="#"><i class="fa fa-trash"></i></a></span>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                5
+                            </td>
+                            <td>
+                                Carry
+                            </td>
+                            <td>
+                                <span><a data-toggle="modal"href="#myModal2"><i class="fa fa-pencil"></i></a></span>
+                                <span><a data-toggle="modal" href="#"><i class="fa fa-trash"></i></a></span>
                             </td>
                             
                         </tr>
