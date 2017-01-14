@@ -177,7 +177,7 @@
                             </td>
                             
                         </tr>
-                        <tr>
+                        <tr class="text-center">
                             <td>
                                 2
                             </td>
@@ -190,7 +190,7 @@
                             </td>
                             
                         </tr>
-                        <tr>
+                        <tr class="text-center">
                             <td>
                                 3
                             </td>
@@ -203,7 +203,7 @@
                             </td>
                             
                         </tr>
-                        <tr>
+                        <tr class="text-center">
                             <td>
                                 4
                             </td>
@@ -216,7 +216,7 @@
                             </td>
                             
                         </tr>
-                        <tr>
+                        <tr class="text-center" >
                             <td>
                                 5
                             </td>
