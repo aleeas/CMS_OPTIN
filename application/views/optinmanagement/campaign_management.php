@@ -45,7 +45,7 @@
                                 </div>
                                 
                                 
-                                <button type="submit" class="btn btn-info">Submit</button>
+                                <button type="submit" class="btn btn-default">Submit</button>
                             </form>
                         </div>
                     </section>
